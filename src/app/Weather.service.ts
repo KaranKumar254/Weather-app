@@ -7,7 +7,7 @@ import { catchError } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class WeatherService {
-  private apiKey = 'd7d57295f9d54578bcd71900260402';
+  private apiKey = 'Paste your API key';
   private apiUrl = 'https://api.weatherapi.com/v1/forecast.json';
 
   constructor(private http: HttpClient) {}
